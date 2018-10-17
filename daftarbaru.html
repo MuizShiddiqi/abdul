@@ -1,0 +1,152 @@
+<html>
+<head>
+    <title>Pendaftaran</title>
+    <link rel="stylesheet" type="text/css" href="daftar.css">
+</head>
+<body>
+    <div id="header-wrapper">
+        <header>
+        <img src="logo1.png" class="logo1">
+        <div class="judul"><h1><u>Koperasi UNEJ</u></h1></div>
+        <img src="logo2.png" class="logo2">
+        <div class="contentbox">
+            <h1>Daftar Baru</h1>
+            <form name="cake" action="" method="get" enctype="multipart/form-data">
+            <table width="550" border="0">                
+                    <tr>
+                        <td>Nama Lengkap</td>
+                        <td><input class="nama" type="text" name="namadepan" id="name" placeholder="Nama"></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>
+                            <label class="jeniskelamin">
+                            <input type="radio" name="gender" id="laki" value="laki-laki">Laki-Laki</label>
+                            <label class="jeniskelamin">
+                            <input type="radio" name="gender" id="laki" value="perempuan">Perempuan</label>
+                        </td>
+                    </tr>              
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td>
+                               
+                        <div>
+                        <select class="tgllahir" name="tanggal">
+                            <option value="Tanggal" selected>Tanggal</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+
+                        <select class="tgllahir" name="bulan">
+                            <option value="Bulan" selected>Bulan</option>
+                            <option value="Januari">Januari</option>
+                            <option value="Februari">Februari</option>
+                            <option value="Maret">Maret</option>
+                            <option value="April">April</option>
+                            <option value="Mei">Mei</option>
+                            <option value="Juni">Juni</option>
+                            <option value="Juli">Juli</option>
+                            <option value="Agustus">Agustus</option>
+                            <option value="September">September</option>
+                            <option value="Oktober">Oktober</option>
+                            <option value="November">November</option>
+                            <option value="Desember">Desember</option>
+                        </select>
+
+                        <select class="tgllahir" name="Tahun">
+                            <option value="Tahun" selected>Tahun</option>
+                            <option value="2003">2003</option>
+                            <option value="2002">2002</option>
+                            <option value="2001">2001</option>
+                            <option value="2000">2000</option>
+                            <option value="1999">1999</option>
+                            <option value="1998">1998</option>
+                            <option value="1997">1997</option>
+                            <option value="1996">1996</option>
+                            <option value="1995">1995</option>
+                            <option value="1994">1994</option>
+                            <option value="1993">1993</option>
+                            <option value="1992">1992</option>
+                            <option value="1991">1991</option>
+                            <option value="1990">1990</option>
+                        </select>
+                        </div>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>Agama</td>
+                            <td>
+                                <label class="agama">
+                                <input type="radio" name="agm" id="islm" value="islm">Islam</label>
+                                <label class="agama">
+                                <input type="radio" name="agm" id="kris" value="kris">Kristen</label>
+                                                       <label class="agama">
+                                <input type="radio" name="agm" id="hin" value="hin">Hindu</label>
+                                                       <label class="agama">
+                                <input type="radio" name="agm" id="bud" value="bud">Budha</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Telepon</td>
+                            <td><input class="tlp" type="text" name="tlp" id="tlp" placeholder="Telepon"></td>
+                        </tr>
+                        <tr>            
+                            <td>Email</td>
+                            <td><input class="tlp" type="text" name="tlp" id="tlp" placeholder="Email"></td>
+                        </tr>
+                        <tr>            
+                            <td>Alamat</td>
+                            <td>
+                                <textarea class="alamat" type="textarea" name="alamat" id="textarea" placeholder="Alamat" cols="46" rows="5"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Username</td>
+                            <td><input class="nama" type="text" name="namadepan" id="name" placeholder="Masukkan Username"></td>
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                            <td><input class="nama" type="password" name="password" id="password"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="submit" type="submit" value="Sub"><a href="Login.html">Submit</a></button>
+                            <button class="reset" type="res" value="res">Reset</button>
+                            </td>
+                        </tr>
+                </table>
+            </form>
+            </div>
+        </header>                       
+</div>
+</body>
+</html>
